@@ -1,0 +1,49 @@
+.container{
+   background-color: rgb(238, 230, 230);
+   height: 480px;
+   width: 500px;
+   /* margin-left: 30%;  */
+   margin: auto;
+ 
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin: 30px;
+    margin-left: 50px;
+}
+.score{
+    text-align: center;
+}
+button{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 30px;
+    width: 105px;
+    text-align: center;
+    background-color: blueviolet;
+}
+li{
+    border: 1px solid black;
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+    /* height: 40px;
+    width: 350px; */
+    /* text-align: center; */
+
+}
+.index{
+    text-align: center;
+    padding: 10px;
+}
+.correct{
+    background-color: #dffff2;
+    border-color: #00d397;
+}
+.wrong{
+    background-color: #dcc2c2;
+    border-color: #ff4a4a;
+}
